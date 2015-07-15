@@ -110,7 +110,7 @@ It is possible to use any names for dependencies in jspm without conflict becaus
 
 The way this is handled is through [SystemJS contextual map config](https://github.com/systemjs/systemjs/wiki/Map-Configuration), which forms the bulk of the configuration file.
 
-> Note everything you import must be directly installed by name into your application. Even if you load a package which depends on jQuery, you still need to install jQuery manually if you want to be able to require it in your own code.
+> Note that everything you import must be directly installed by name into your application. Even if you load a package which depends on jQuery, you still need to install jQuery manually if you want to be able to require it in your own code.
 
 ### Reproducible Installs
 
